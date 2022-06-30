@@ -1,18 +1,18 @@
 import React from 'react';
 
-const TitleSection = ({ headline, button, image, imageName }) => {
+const TitleSection = ({ headline, button, imageSource, imageName }) => {
 
     return (
-        <div>
+        <section>
             <div>
                 <h1>{headline}</h1>
                 <button type="button">{button}</button>
                 <button type="button">{button}</button>
             </div>
             <div>
-                <img src={image} alt={imageName} />
+                <img src={imageSource} alt={imageName} />
             </div>
-        </div>
+        </section>
     )
 }
 
