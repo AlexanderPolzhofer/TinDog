@@ -1,20 +1,19 @@
 import React from 'react';
 
-const Section = (props) => {
-
-    const { headline, button, image, imageName } = props;
+const TitleSection = ({ headline, button, image, imageName }) => {
 
     return (
-        <section>
+        <div>
             <div>
                 <h1>{headline}</h1>
+                <button type="button">{button}</button>
                 <button type="button">{button}</button>
             </div>
             <div>
                 <img src={image} alt={imageName} />
             </div>
-        </section>
+        </div>
     )
 }
 
-export default Section;
+export default TitleSection;
