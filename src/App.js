@@ -1,8 +1,8 @@
 import './App.css';
+import Navbar from './components/navbar/navbar.component';
 import CallToActionSection from './components/cta-section/cta-section.component';
 import FeaturesSection from './components/features-section/features-section.component';
 import Footer from './components/footer/footer.component';
-import Navbar from './components/navbar/navbar.component';
 import PressSection from './components/press-section/press-section.component';
 import PricingSection from './components/pricing-section/pricing-section.component';
 import TestimonialsSection from './components/testimonials-section/testimonials-section.component';
