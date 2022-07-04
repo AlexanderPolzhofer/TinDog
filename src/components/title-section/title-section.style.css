@@ -3,3 +3,12 @@
     padding: 3% 15%;
     color: #fff;
 }
+
+.download-button{
+    margin: 5% 3% 5% 0%;
+}
+
+.title-image{
+    width: 55%;
+    transform: rotate(34deg);
+}

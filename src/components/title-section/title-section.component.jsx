@@ -12,19 +12,19 @@ const TitleSection = ({ headline, button, imageSource, imageName }) => {
                     <h1>{headline}</h1>
                     <button
                         type="button"
-                        className='btn btn-dark'>
+                        className='btn btn-dark download-button'>
                         <FontAwesomeIcon icon={brands('apple')} />
                         {button}
                     </button>
                     <button
                         type="button"
-                        className='btn btn-outline-light'>
+                        className='btn btn-outline-light download-button'>
                         <FontAwesomeIcon icon={brands('google-play')} />
                         {button}
                     </button>
                 </div>
                 <div className='col-lg-6'>
-                    <img src={imageSource} alt={imageName} />
+                    <img className='title-image' src={imageSource} alt={imageName} />
                 </div>
             </div>
         </section>
