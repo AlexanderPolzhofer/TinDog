@@ -1,9 +1,12 @@
 import React from "react";
+import './navbar.styles.css';
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-dark bg-dark">
-            <a className="navbar-brand" href="">Tindog</a>
+        <nav
+            className="navbar navbar-dark"
+            id='navbar-container'>
+            <a className="navbar-brand" href="">tinDog</a>
             <button
                 className="navbar-toggler"
                 type="button"

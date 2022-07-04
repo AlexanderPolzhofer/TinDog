@@ -14,7 +14,7 @@ const App = () => {
       <Navbar />
       <TitleSection
         headline='Meet new and interesting dogs nearby'
-        button='Download'
+        button=' Download'
         imageSource={process.env.PUBLIC_URL + `images/iphone6.png`}
         imageName='iphone-mockup'
       />
