@@ -1,0 +1,18 @@
+#testimonials {
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 8% 15%;
+    text-align: center;
+}
+
+.testimonial-logo {
+    width: 10%;
+    border-radius: 100%;
+    margin: 3%;
+}
+
+h2 {
+    font-weight: 900;
+    line-height: 1.5;
+    font-size: 3rem;
+}

@@ -19,12 +19,7 @@ const App = () => {
         imageName='iphone-mockup'
       />
       <FeaturesSection />
-      <TestimonialsSection
-        sectionName="I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof."
-        imageSource={process.env.PUBLIC_URL + `images/dog-img.jpg`}
-        imageName='dog-profile'
-        description='Pebbles, New York'
-      />
+      <TestimonialsSection/>
       <PressSection
         techCrunch={process.env.PUBLIC_URL + `images/TechCrunch.png`}
         tnw={process.env.PUBLIC_URL + `images/tnw.png`}
