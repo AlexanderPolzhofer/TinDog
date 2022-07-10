@@ -32,13 +32,13 @@ const TestimonialsSection = () => {
                         <img className="testimonial-logo" src={testimonials[1].imageSource} alt={testimonials[1].imageName} />
                         <em>{testimonials[1].description}</em>
                     </div>
+                    <a className="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+                        <span className="carousel-control-prev-icon" ></span>
+                    </a>
+                    <a className="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+                        <span className="carousel-control-next-icon" ></span>
+                    </a>
                 </div>
-                <a className="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
-                    <span className="carousel-control-prev-icon" ></span>
-                </a>
-                <a className="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
-                    <span className="carousel-control-next-icon" ></span>
-                </a>
             </div>
         </section>
     )
