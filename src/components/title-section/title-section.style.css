@@ -4,11 +4,20 @@
     color: #fff;
 }
 
-.download-button{
+.download-button {
     margin: 5% 3% 5% 0%;
 }
 
-.title-image{
+.title-image {
     width: 55%;
     transform: rotate(34deg);
+    position: absolute;
+    right: 34%;
+}
+
+@media (max-width: 1024px) {
+    .title-image {
+        transform: rotate(0);
+        position: static;
+    }
 }

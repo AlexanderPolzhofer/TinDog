@@ -1,10 +1,17 @@
-.feature-box{
-    padding: 5% 13%;
+.feature-box {
     text-align: center;
-    padding: 5%;
+    padding: 8%;
+    z-index: 0;
+    background-color: #fff;
 }
 
-h3{
+@media (max-width: 1024px) {
+    .feature-box {
+        text-align: center;
+    }
+}
+
+h3 {
     font-weight: 900;
 }
 
