@@ -1,0 +1,12 @@
+#cta{
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    text-align: center;
+    color: #fff;
+}
+
+.cta-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}

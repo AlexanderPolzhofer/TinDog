@@ -16,6 +16,10 @@
 }
 
 @media (max-width: 1024px) {
+    #titleSection {
+        text-align: center;
+    }
+
     .title-image {
         transform: rotate(0);
         position: static;

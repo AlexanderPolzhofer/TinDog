@@ -6,7 +6,7 @@ const Navbar = () => {
         <nav
             className="navbar navbar-dark"
             id='navbar-container'>
-            <a className="navbar-brand" href="">tinDog</a>
+            <a className="navbar-brand" href="#titleSection">tinDog</a>
             <button
                 className="navbar-toggler"
                 type="button"
@@ -21,13 +21,13 @@ const Navbar = () => {
                 id="navbarSupportedContent">
                 <ul className="navbar-nav ml-auto">
                     <li className="nav-item">
-                        <a className="nav-link" href="">Contact</a>
+                        <a className="nav-link" href="#footer">Contact</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="">Pricing</a>
+                        <a className="nav-link" href="#pricing">Pricing</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="">Download</a>
+                        <a className="nav-link" href="#cta">Download</a>
                     </li>
                 </ul>
             </div>
