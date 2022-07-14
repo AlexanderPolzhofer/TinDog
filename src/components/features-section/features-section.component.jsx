@@ -4,7 +4,7 @@ import {
     faCheckCircle,
     faBullseye
 } from '@fortawesome/free-solid-svg-icons'
-import React, { useState } from 'react';
+import React from 'react';
 import './features-section.styles.css';
 
 const features = [
@@ -27,11 +27,7 @@ const features = [
         icon: faHeart
     }]
 const FeaturesSection = () => {
-    const [color, setColor] = useState('#ef8172');
 
-    const handleClick = () => {
-        setColor('#ff4c68')
-    }
     return (
         <section>
             <div className='row'>
@@ -41,15 +37,15 @@ const FeaturesSection = () => {
                         className='feature-box col-lg-4'
                         key={id}>
                         <FontAwesomeIcon
-                            onClick={handleClick}
                             icon={icon}
                             size='4x'
                             style={
                                 {
-                                    color,
+                                    color: '#ff4c68',
                                     marginBottom: '1rem'
                                 }
-                            } />
+                            }
+                        />
                         <h3>{title}</h3>
                         <p>{description}</p>
                     </div>)

@@ -1,4 +1,3 @@
-import './App.css';
 import Navbar from './components/navbar/navbar.component';
 import CallToActionSection from './components/cta-section/cta-section.component';
 import FeaturesSection from './components/features-section/features-section.component';
@@ -19,7 +18,7 @@ const App = () => {
         imageName='iphone-mockup'
       />
       <FeaturesSection />
-      <TestimonialsSection/>
+      <TestimonialsSection />
       <PressSection
         techCrunch={process.env.PUBLIC_URL + `images/TechCrunch.png`}
         tnw={process.env.PUBLIC_URL + `images/tnw.png`}
